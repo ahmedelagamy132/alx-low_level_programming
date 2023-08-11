@@ -10,6 +10,7 @@ int main(void)
 
 	do {
 	putchar (caracter);
+	caracter++;
 	} while (caracter <= 'z');
 
 
