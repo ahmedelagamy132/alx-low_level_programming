@@ -8,7 +8,7 @@ int main(void)
 {
 	int numb = 0, i = 0;
 
-	for (i ; i <= 9 ; i++)
+	while (i <= 9)
 	{
 	do {
 	if (i != numb)
@@ -27,7 +27,10 @@ int main(void)
 	}
 
 	} while (numb <= 9);
+	i++;
 	}
+
+
 	putchar('\n');
 
 return (0);
