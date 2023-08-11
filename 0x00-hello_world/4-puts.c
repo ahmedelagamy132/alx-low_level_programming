@@ -1,11 +1,11 @@
 #include <stdio.h>
-/*
-*main - mainwork prints a line
-*
-*fun that prints line
-*
-*main - ll
-*/
+
+
+/**
+ * main-AAA
+ *
+ * Return: 0 (Success)
+ */
 int main(void)
 {
 	/* prints this line */
