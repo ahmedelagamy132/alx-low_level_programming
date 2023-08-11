@@ -10,12 +10,7 @@ int main(void)
 
 	do {
 	putchar (caracter);
-	} while (caracter <= 'z')
-
-
-
-
-
+	} while (caracter <= 'z');
 
 
 return (0);
