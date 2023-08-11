@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
-*main - mainwork
+*main - mainwork prints a line
 *
 *fun that prints line
 *
