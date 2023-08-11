@@ -1,10 +1,10 @@
 #include<stdio.h>
 /**
- *
- * main -maiiiin
- * Return : 0
- *
- */
+*main -maiiiin
+*
+*Return : 0 (Success)
+*
+*/
 
 
 int main(void)
