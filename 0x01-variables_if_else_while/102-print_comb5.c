@@ -26,7 +26,7 @@ int main(void)
 	putchar (' ');
 	putchar (ten2 + '0');
 	putchar (unit2 + '0');
-	if (k != 98 || j < 99) 
+	if (k != 98 || l < 99) 
 	{
 	putchar(',');
 	putchar(' ');
