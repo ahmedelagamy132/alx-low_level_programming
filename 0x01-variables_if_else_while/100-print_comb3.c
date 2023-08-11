@@ -17,17 +17,17 @@ int main(void)
 	{
 	putchar (i + '0');
 	putchar (numb + '0');
-	numb++;
 	if (i != 8)
 	{
-		putchar (',');
-		putchar (' ');
+	putchar (',');
+	putchar (' ');
 	}
 	}
 	}
-
+	numb++;
 	} while (numb <= 9);
 	i++;
+	numb = 0;
 	}
 
 
