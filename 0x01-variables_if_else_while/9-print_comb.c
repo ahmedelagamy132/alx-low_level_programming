@@ -10,8 +10,11 @@ int main(void)
 
 	do {
 	putchar (numb + '0');
+	if (numb != 9)
+	{
 	putchar (',');
 	putchar (' ');
+	}
 	numb++;
 	} while (numb <= 9);
 
