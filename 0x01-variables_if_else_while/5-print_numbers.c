@@ -11,9 +11,9 @@ int main(void)
 	do {
 	printf("%d", number);
 	number++;
-	} while (number <= '9');
+	} while (number <= 9);
 
-	printf('\n');
+	printf("\n");
 
 return (0);
 }
