@@ -10,9 +10,8 @@ int main(void)
 	/* listed loops*/
 	for (k = 0; k < 100; k++)
 	{
-	l = k + 1;
 
-	for (l ; l < 100; l++)
+	for (l = k + 1 ; l < 100; l++)
 	{
 
 	unit1 = k % 10;
