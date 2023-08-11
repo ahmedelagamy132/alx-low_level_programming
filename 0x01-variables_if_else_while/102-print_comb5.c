@@ -6,36 +6,32 @@
 
 int main(void)
 {
-	int k = 0, l = 0, unit1, ten1, unit2, ten2;
-	/* 1st loop */
-	while (k <= 99)
+	int unit1, unit2, ten1, ten2, k, l;
+	/* listed loops*/
+	for (k = 0; k < 100; k++)
 	{
-	/* 2nd loop */
-	while (l <= 99)
+	l = k + 1;
+
+	for (l ; l < 100; l++)
 	{
-	/*condition that checks if the units is bigger than tens*/
-	if (l > k)
-	{
+
 	unit1 = k % 10;
 	unit2 = l % 10;
 	ten1 = k / 10;
 	ten2 = l / 10;
+	putchar(ten1 + '0');
+	putchar(unit1 + '0');
+	putchar(' ');
+	putchar(ten2 + '0');
+	putchar(unit2 + '0');
 
-	putchar (ten1 + '0');
-	putchar (unit1 + '0');
-	putchar (' ');
-	putchar (ten2 + '0');
-	putchar (unit2 + '0');
-	if (k != 98 || l < 99) 
+	if (k < 98)
 	{
 	putchar(',');
 	putchar(' ');
 	}
 	}
-	l++;
 	}
-	l = 0;
-	k++;
-	}
-return (0);
+	putchar('\n');
+	return (0);
 }
