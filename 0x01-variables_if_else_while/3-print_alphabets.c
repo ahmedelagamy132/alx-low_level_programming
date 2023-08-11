@@ -13,7 +13,7 @@ int main(void)
 	caracter++;
 	} while (caracter <= 'z');
 
-	caraccter = 'A';
+	caracter = 'A';
 
 	do {
 	putchar (caracter);
