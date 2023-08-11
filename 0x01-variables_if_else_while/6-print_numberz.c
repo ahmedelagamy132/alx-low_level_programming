@@ -9,7 +9,7 @@ int main(void)
 	int numb = 0;
 
 	do {
-	putchar (numb);
+	putchar (numb + '0');
 	numb++;
 	} while (numb <= 9);
 
