@@ -15,7 +15,7 @@ int main(void)
 	do {
 	if (i != numb && numb != j && j != i)
 	{
-	if (numb > i)
+	if (numb > i && j > i)
 	{
 	putchar (i + '0');
 	putchar (j + '0');
