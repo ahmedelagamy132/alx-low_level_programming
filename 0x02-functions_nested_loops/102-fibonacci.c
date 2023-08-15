@@ -23,12 +23,12 @@ while (increasing < 100)
 
 if (increasing != 100)
 {
-printf("%lli, ", added_mum);
+printf("%ld, ", added_mum);
 }
 
 else
 {
-printf("%lli ", added_mum);
+printf("%ld ", added_mum);
 printf("\n");
 }
 increasing++;
