@@ -20,7 +20,8 @@ while (j <= n)
 int timees = k * j;
 if ((timees / 100) != 0)
 {
-printf(", %d", timees);   
+printf(", ");
+printf("%d", timees);   
 }
 else if ((timees / 10) != 0)
 {
