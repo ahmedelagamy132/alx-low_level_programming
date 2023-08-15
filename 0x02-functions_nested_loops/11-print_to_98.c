@@ -23,6 +23,7 @@ printf(", ");
 }
 
 }
+printf("\n");
 }
 
 else if (n > 98)
@@ -37,9 +38,12 @@ if (down != 98)
 printf(", ");
 }
 }
+printf("\n");
 }
 else
 {
 printf("%d ", 98 );
+printf("\n");
 }
+
 }
