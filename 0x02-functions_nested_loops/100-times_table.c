@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include "main.h"
 /**
  * print_times_table-rrthrtgtrghrt
  * 
@@ -45,7 +45,6 @@ _putchar((timeees % 10) + '0');
 
 }
 _putchar('\n');
-}
 }
 }
 }
