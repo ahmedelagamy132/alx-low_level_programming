@@ -2,7 +2,7 @@
 #include <ctype.h>
 /**
  * _islower - ;lh,flg,fghlfglh
- * c - hhh
+ * @c: hhh
  * Return: 0
  */
 int _islower(int c)
