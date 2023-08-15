@@ -12,7 +12,7 @@ if (n <= 15 && n >= 0)
 {
 for (; loop1 <= n; loop1++)
 {   
-putchar(48);
+printf('0');
 loop2 = 1;
 for (; loop2 <= n; loop2++)
 {
