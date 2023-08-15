@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include "main.h"
 /**
+ * print_times_table - lnasjcasuuascsajcs
  *
- *  print_times_table - lnasjcasuuascsajcs
- *  
+ *
  * @n:   dvks;ldkfsd
  */
 void print_times_table(int n)
