@@ -13,7 +13,7 @@ while (j < 10)
 {
 /*print times table */
 _putchar((k * j) + '0');
-
+j++;
 }
 j = 0;
 k++;

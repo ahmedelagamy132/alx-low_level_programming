@@ -7,7 +7,7 @@
  */
 
 
-int add(int AAA, int BBB);
+int add(int AAA, int BBB)
 {
 /*add two mnu*/
 int sum = AAA + BBB;
