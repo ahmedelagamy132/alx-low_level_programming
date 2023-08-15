@@ -16,7 +16,7 @@ if (n < 98)
 while (n <= 98)
 {
 int up = n++;
-printf("%d ", up);
+printf("%d, ", up);
 
 
 }
@@ -28,7 +28,11 @@ while (n >= 98)
 {
 
 int down = n--;
-printf("%d ", down);
+printf("%d, ", down);
 }
+}
+else
+{
+printf("%d", 98 );
 }
 }
