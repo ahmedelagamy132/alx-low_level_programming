@@ -8,7 +8,7 @@
 
 int print_last_digit(int lastmun)
 {
-int abss = lastmun %= 10;
+int abss = abs(lastmun %= 10);
 _putchar(abss + '0');
 return (abss);
 }
