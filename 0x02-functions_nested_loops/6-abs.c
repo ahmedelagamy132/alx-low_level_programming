@@ -9,10 +9,10 @@
 
 int _abs(int n)
 {
-absol = abs(n);
-return (absol);
+n = abs(n);
+return (n);
 }
 
 
 
-}
+
