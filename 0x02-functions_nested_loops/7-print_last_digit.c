@@ -6,7 +6,7 @@
  * Return: lastmunhh
  */
 
-int print_last_digit(int lastmun);
+int print_last_digit(int lastmun)
 {
 lastmun %= 10;
 return (lastmun);
