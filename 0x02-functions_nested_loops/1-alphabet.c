@@ -15,6 +15,6 @@ hh++;
 }
 
 
-_pitchar('\n'");
+_putchar('\n');
 return;
 }
