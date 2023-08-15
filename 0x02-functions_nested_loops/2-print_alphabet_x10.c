@@ -1,4 +1,7 @@
 #include "main.h"
+/**
+ * print_alphabet_x10 - ljnjgndgndfngfd
+ */
 
 void print_alphabet_x10(void)
 {
@@ -12,7 +15,6 @@ _putchar(hh);
 hh++;
 }
 _putchar('\n');
-return;
 }
 i++;
 }
