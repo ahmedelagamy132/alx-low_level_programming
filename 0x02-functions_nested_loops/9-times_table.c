@@ -1,11 +1,14 @@
 #include "main.h"
 /**
- * times_table - mfg,dfgdfmlllvlld
- *
+ * times_table - mfg,dfgdfml
  */
+
+
+
 
 void times_table(void)
 {
+
 int k = 0, j = 0;
 while (k < 10)
 {
@@ -20,6 +23,7 @@ j++;
 }
 j = 0;
 k++;
+_putchar('\n');
 }
 
 }
