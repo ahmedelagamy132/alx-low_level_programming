@@ -42,7 +42,7 @@ printf("\n");
 }
 else
 {
-printf("%d ", 98 );
+printf("%d", 98);
 printf("\n");
 }
 
