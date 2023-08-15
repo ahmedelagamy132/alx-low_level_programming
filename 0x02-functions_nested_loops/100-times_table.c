@@ -11,30 +11,31 @@ void print_times_table(int n)
 {
 if (n < 15 && n > 0)
 {
-int k = 0, j = 0;
+int k = 0, j = 0, l;
 while (k <= n)
 {
 while (j <= n)
 {
 /*print times table */
 int timees = k * j;
-if ((timees / 10) != 0)
+if ((timees / 100) != 0)
 {
-_putchar(',');
-_putchar(' ');
-_putchar((timees / 10) + '0');
-_putchar((timees % 10) + '0');
+printf(", %d", timees);   
+}
+else if ((timees / 10) != 0)
+{
+printf(",  %d", timees);
 }
 else if (timees != 0)
 {
-printf(",  ");
+printf(",   ");
 _putchar((timees % 10) + '0');
 }
 else
 {
 if (k == 0 && j != n)
 {
-printf("0,  ");
+printf("0,   ");
 }
 else
 {
@@ -48,5 +49,3 @@ k++;
 _putchar('\n');
 }
 }
-}
-
