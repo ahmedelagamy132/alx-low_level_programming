@@ -9,6 +9,6 @@
 int print_last_digit(int lastmun)
 {
 lastmun %= 10;
-_putchar('\n');
+_putchar(lastmun + '0');
 return (lastmun);
 }
