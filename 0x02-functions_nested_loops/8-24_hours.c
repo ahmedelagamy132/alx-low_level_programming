@@ -24,6 +24,6 @@ _putchar(min2 + '0');
 _putchar('\n');
 j++;
 }
-k++
+k++;
 }
 }
