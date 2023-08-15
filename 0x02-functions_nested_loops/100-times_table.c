@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * print_times_table - lknlkvmsdmvadc
  * @n:snldfsnkdjsnfjsd
@@ -19,15 +20,15 @@ while (j <= n)
 int timees = k * j;
 if ((timees / 10) != 0)
 {
-putchar(',');
-putchar(' ');
-putchar((timees / 10) + '0');
-putchar((timees % 10) + '0');
+_putchar(',');
+_putchar(' ');
+_putchar((timees / 10) + '0');
+_putchar((timees % 10) + '0');
 }
 else if (timees != 0)
 {
 printf(",  ");
-putchar((timees % 10) + '0');
+_putchar((timees % 10) + '0');
 }
 else
 {
@@ -37,14 +38,14 @@ printf("0,  ");
 }
 else
 {
-putchar('0');
+_putchar('0');
 }
 }
 j++;
 }
 j = 0;
 k++;
-putchar('\n');
+_putchar('\n');
 }
 }
 }
