@@ -14,7 +14,7 @@ added_mum = num_to_be_added1 + num_to_be_added2;
 
 
 
-printf("%lli, %lli, ", num_to_be_added1, num_to_be_added2);
+printf("%ld, %ld, ", num_to_be_added1, num_to_be_added2);
 
 
 int increasing = 2;
