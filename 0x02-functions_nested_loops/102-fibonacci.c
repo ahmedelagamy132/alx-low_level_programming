@@ -27,7 +27,7 @@ printf("%ld, ", added_mum);
 
 else
 {
-printf("%ld ", added_mum);
+printf("%ld", added_mum);
 printf("\n");
 }
 increasing++;
