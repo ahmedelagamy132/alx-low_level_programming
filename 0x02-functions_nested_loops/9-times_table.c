@@ -15,7 +15,7 @@ while (k < 10)
 while (j < 10)
 {
 /*print times table */
-int check, timees = k * j;
+int timees = k * j;
 if ((timees / 10) != 0)
 {
 _putchar((timees / 10) + '0');
