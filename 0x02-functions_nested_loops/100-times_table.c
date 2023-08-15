@@ -8,14 +8,13 @@
 void print_times_table(int n)
 {
 int loop1 = 0, loop2, timeees, l;
-int n = 12;
 if (n <= 15 && n >= 0)
 {
-for (loop1; loop1 <= n; loop1++)
+for (; loop1 <= n; loop1++)
 {   
 putchar(48);
 loop2 = 1;
-for (loop2 = 1; loop2 <= n; loop2++)
+for (; loop2 <= n; loop2++)
 {
 timeees = loop2 * loop1;
 if((timeees / 100) != 0)
