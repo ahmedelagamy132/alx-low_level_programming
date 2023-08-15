@@ -9,7 +9,7 @@
 int main(void)
 {
 
-long numtobeadded1 = 1, numto_be_added2 = 2, added_mum, increasing = 2,sum = 0;
+long numtobeadded1 = 1, numto_be_added2 = 2, added_mum, increasing = 2,sum = 3;
 added_mum = numtobeadded1 + numto_be_added2;
 
 
@@ -25,7 +25,9 @@ increasing++;
 numtobeadded1 = numto_be_added2;
 numto_be_added2 = added_mum;
 added_mum = numtobeadded1 + numto_be_added2;
-}
 
+sum += added_mum;
+}
+printf("%ld\n", sum);
 return (0);
 }
