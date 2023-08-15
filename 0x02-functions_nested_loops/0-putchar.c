@@ -7,7 +7,7 @@
 int main(void)
 {
 
-//I use this to print one char at once
+/*I use this to print one char at once*/
 _putchar("_");
 _putchar("p");
 _putchar("u");
