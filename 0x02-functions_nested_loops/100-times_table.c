@@ -34,7 +34,7 @@ if (timeees > 99)
 _putchar((timeees / 100) + 48);
 _putchar(((timeees / 10)) % 10 + 48);
 }
-else if (timeees < 100 && prod > 9)
+else if (timeees < 100 && timeees > 9)
 {
 _putchar((timeees / 10) + 48);
 }
