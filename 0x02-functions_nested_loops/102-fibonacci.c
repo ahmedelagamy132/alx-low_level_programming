@@ -20,7 +20,7 @@ printf("%ld, %ld, ", num_to_be_added1, num_to_be_added2);
 while (increasing < 50)
 {
 
-if (increasing != 50)
+if (increasing != 49)
 {
 printf("%ld, ", added_mum);
 }
