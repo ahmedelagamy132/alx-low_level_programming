@@ -6,7 +6,7 @@
 
 void times_table(void)
 {
-int k = 0, j = 0, hour1, hour2, min1, min2;
+int k = 0, j = 0;
 while (k < 10)
 {
 while (j < 10)
