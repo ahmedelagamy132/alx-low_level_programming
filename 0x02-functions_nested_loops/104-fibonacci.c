@@ -9,10 +9,11 @@ for (number = 3; number <= 98; number++) {
 tot = first + sec;
 first = sec;
 sec = tot;
-
+/*
 if (number % 31 == 0) {
-printf("\n");
+
 }
+*/
 printf("%ld, ", tot);
 }
 
