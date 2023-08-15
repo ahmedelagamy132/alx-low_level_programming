@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdlib.h>
 /**
  * print_last_digit - lhjvkjhugkhbggggg
  * @lastmun: mmmmn,vmclapooorer
@@ -9,6 +9,6 @@
 int print_last_digit(int lastmun)
 {
 lastmun %= 10;
-_putchar(lastmun + '0');
+_putchar(abs(lastmun) + '0');
 return (lastmun);
 }
