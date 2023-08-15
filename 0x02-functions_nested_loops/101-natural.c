@@ -21,4 +21,6 @@ sum += num;
 num++;
 }
 printf("%d\n",sum);
+
+retuen (sum);
 }
