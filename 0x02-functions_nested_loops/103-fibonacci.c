@@ -9,12 +9,11 @@
 int main(void)
 {
 
-long numtobeadded1 = 1, numto_be_added2 = 2, added_mum, sum = 3;
+long numtobeadded1 = 1, numto_be_added2 = 2, added_mum, sum = 2;
 added_mum = numtobeadded1 + numto_be_added2;
 
 
 
-printf("%ld, %ld, ", numtobeadded1, numto_be_added2);
 
 
 while (added_mum < 4000000)
