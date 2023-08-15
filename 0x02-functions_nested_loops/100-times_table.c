@@ -1,53 +1,52 @@
-#include "main.h"
 #include <stdio.h>
+
 /**
- * print_times_table - lknlkvmsdmvadc
- * @n:snldfsnkdjsnfjsd
+ * print_times_table-rrthrtgtrghrt
+ * 
+ * @n: ;fsokflsg
  */
-
-
-
 void print_times_table(int n)
 {
-if (n < 15 && n > 0)
+int loop1 = 0, loop2, timeees, l;
+int n = 12;
+if (n <= 15 && n >= 0)
 {
-int k = 0, j = 0;
-while (k <= n)
+for (loop1; loop1 <= n; loop1++)
+{   
+putchar(48);
+loop2 = 1;
+for (loop2 = 1; loop2 <= n; loop2++)
 {
-while (j <= n)
+timeees = loop2 * loop1;
+if((timeees / 100) != 0)
 {
-/*print times table */
-int timees = k * j;
-if ((timees / 100) != 0)
-{
-printf(", ");
-printf("%d", timees);   
+l =timeees / 10;
+_putchar(',');
+_putchar(' ');
+_putchar((timeees /100) + '0');
+_putchar((l%10) + '0');
+_putchar((timeees % 10) + '0');
 }
-else if ((timees / 10) != 0)
+else if((timeees / 10) != 0)
 {
-printf(",  %d", timees);
-}
-else if (timees != 0)
-{
-printf(",   ");
-_putchar((timees % 10) + '0');
+_putchar(',');
+_putchar(' ');
+_putchar(' ');
+_putchar((timeees / 10) + '0');
+_putchar((timeees % 10) + '0');
 }
 else
-{
-if (k == 0 && j != n)
-{
-printf("0,   ");
+{  
+_putchar(',');
+_putchar(' ');
+_putchar(' ');
+_putchar(' ');
+_putchar((timeees % 10) + '0');
 }
-else
-{
-_putchar('0');
+
 }
-}
-j++;
-}
-j = 0;
-k++;
 _putchar('\n');
+}
 }
 }
 }
