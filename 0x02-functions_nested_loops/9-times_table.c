@@ -12,10 +12,14 @@ while (k < 10)
 while (j < 10)
 {
 /*print times table */
-_putchar((k * j) + '0');
+int timees = k * j;
+_putchar(timees + '0');
+_putchar(',');
+_putchar(' ');
 j++;
 }
 j = 0;
 k++;
 }
+
 }
