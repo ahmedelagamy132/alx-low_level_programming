@@ -12,11 +12,15 @@ while (j++ < 60)
 {
 /*print the clock */
 hour1 = k % 10, hour2 = k / 10, min1 = j % 10, min2 = j / 10;
-_putchar((hour1 - 1) + '0');
-_putchar((hour2 - 1) + '0');
+hour1--;
+hour2--;
+min1--;
+min2--;
+_putchar(hour1 + '0');
+_putchar(hour2 + '0');
 _putchar(':');
-_putchar((min1 - 1) + '0');
-_putchar((min2 - 1) + '0');
+_putchar(min1 + '0');
+_putchar(min2 + '0');
 _putchar('\n');
 }
 }
