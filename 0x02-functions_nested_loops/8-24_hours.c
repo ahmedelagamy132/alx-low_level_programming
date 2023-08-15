@@ -5,7 +5,7 @@
 void jack_bauer(void)
 {
 int k = 0, j = 0, hour1, hour2, min1, min2;
-
+/*listed_loooops*/
 while (k < 24)
 {
 while (j < 60)
