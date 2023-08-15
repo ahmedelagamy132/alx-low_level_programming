@@ -9,7 +9,7 @@
 int main(void)
 {
 
-long num_to_be_added1 = 1, num_to_be_added2 = 2, added_mum, increasing =2 ;
+long num_to_be_added1 = 1, num_to_be_added2 = 2, added_mum, increasing = 2;
 added_mum = num_to_be_added1 + num_to_be_added2;
 
 
@@ -17,10 +17,10 @@ added_mum = num_to_be_added1 + num_to_be_added2;
 printf("%ld, %ld, ", num_to_be_added1, num_to_be_added2);
 
 
-while (increasing < 100)
+while (increasing < 50)
 {
 
-if (increasing != 100)
+if (increasing != 50)
 {
 printf("%ld, ", added_mum);
 }
