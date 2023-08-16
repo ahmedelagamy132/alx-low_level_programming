@@ -30,8 +30,8 @@ total1 = num1_1 + num2_1;
 total2 = num2_2 + num1_2;
 if ((num2_2 + num1_2 + 1) > 100000000000)
 {
-total2 = total2 % 10000000000;
 total1 = total1 + 1;
+total2 = total2 % 10000000000;
 }
 if (i == 95)
 {
