@@ -39,7 +39,7 @@ printf("%lu%lu\n", total1, total2);
 }
 else
 {
-printf("%lu%lu ,", total1, total2);
+printf("%lu%lu, ", total1, total2);
 }
 num1_1 = num2_1, num1_2 = num2_2, num2_1 = total1;
 num2_2 = total2;
