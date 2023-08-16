@@ -1,26 +1,49 @@
 #include <stdio.h>
 /**
- * main - lnksann
+ * main - jfnd,nfldkfm
  * Return: 0
  */
 
-
 int main(void)
 {
-unsigned long first = 1, sec = 1, tot, number;
-
-
-printf("%ld, ", first);
-
-for (number = 3; number <= 98; number++)
+unsigned long i, total, num2 = 2;
+unsigned long num1_1, num1_2, num2_1, num2_2, total1, total2, num1 = 1;
+printf("%ld, %ld, ", num1, num2);
+for (i = 0; i < 96; i++)
 {
-tot = first + sec;
-first = sec;
-sec = tot;
-
-printf("%ld, ", tot);
+if (i < 90)
+{
+total = num1 + num2;
+printf("%lu, ", total);
+num1 = num2, num2 = total;
 }
-
-printf("\n");
+else
+{
+if (i == 90)
+{
+num1_1 = num1 / 10000000000;
+num1_2 = num1 % 10000000000;
+num2_1 = num2 / 10000000000;
+num2_2 = num2 % 10000000000;
+}
+total1 = num1_1 + num2_1;
+total2 = num2_2 + num1_2;
+if ((num2_2 + num2_1 + 1) > 10000000000)
+{
+total2 = total2 % 10000000000;
+total1 = total1 + 1;
+}
+if (i == 95)
+{
+printf("%lu%lu\n", total1, total2);
+}
+else
+{
+printf("%lu%lu ,", total1, total2);
+}
+num1_1 = num2_1, num1_2 = num2_2, num2_1 = total1;
+num2_2 = total2;
+}
+}
 return (0);
 }
