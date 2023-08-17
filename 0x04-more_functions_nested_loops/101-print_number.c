@@ -7,18 +7,21 @@
 */
 void print_number(int n)
 {
-int numbeforelast, printed_int = n, last;
-if (n < 0)
+
+int num_p = n;
+if (num_p < 0)
 {
-_putchar('-');
-printed_int *= -1;
+num_p *= -1;
+putchar('-');
 }
-if (printed_int > 9)
+/*if zero it will not print*/
+if (num_p / 10)
 {
-numbeforelast = printed_int / 10;
-/*recursion to print the before last dig.*/
-print_number(numbeforelast);
+/*recursion to print before last1*/
+print(num_p / 10);
 }
-last = printed_int % 10;
-_putchar(last + (50 - 2));
+/*print last*/
+_putchar(num_p % 10 + '0');
+
+
 }
