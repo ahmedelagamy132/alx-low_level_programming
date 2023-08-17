@@ -17,9 +17,11 @@ _putchar('\n');
 else
 {
 /*for loop for the height*/
+height = 0;
 for (; height < size; height++)
 {
 /*for loop for the width*/
+width = 0;
 for (; width < size; width++)
 {
 _putchar('#');
