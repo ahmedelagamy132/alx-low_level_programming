@@ -7,17 +7,18 @@
 */
 void print_number(int n)
 {
-int num_p = n;
+unsigned int num_p = n, blast;
 if (n < 0)
 {
 num_p *= -1;
 _putchar('-');
 }
 /*if zero it will not print*/
-if (num_p / 10)
+blast = num_p / 10;
+if (blast)
 {
 /*recursion to print before last1*/
-print_number(num_p / 10);
+print_number(blast);
 }
 /*print last*/
 _putchar(num_p % 10 + '0');
