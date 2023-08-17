@@ -10,7 +10,7 @@ void print_number(int n)
 int numbeforelast, printed_int = n, last;
 if (n < 0)
 {
-_putchar(46 - 1);
+_putchar('-');
 printed_int *= -1;
 }
 if (printed_int > 9)
