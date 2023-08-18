@@ -21,7 +21,7 @@ if (loop22 >= 10)
 {
 _putchar(fir + 48);
 }
-_putchar(loop22 + 48);
+_putchar(sec + 48);
 
 }
 _putchar('\n');
