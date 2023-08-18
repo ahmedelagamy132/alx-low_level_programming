@@ -2,9 +2,9 @@
 #include <ctype.h>
 
 /**
- * _isupper - sdvldsnmlkdsmv
+ * _isupper - lfnslkdfmskdfmvsddc
  *
- * @c: lokhokrthob
+ * @c: lkmgf;slx,vsx,fv
  *
  * Return: 0
  */
