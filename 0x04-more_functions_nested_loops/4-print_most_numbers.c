@@ -12,7 +12,7 @@ for (mostnum = 0; mostnum <= 9; mostnum++)
 {
 if ((mostnum != 2) && (mostnum != 4))
 {
-_putchar('mostnum' + 48);
+_putchar(mostnum + 48);
 }
 }
 _putchar('\n');
