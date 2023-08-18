@@ -12,8 +12,11 @@
 
 void print_remaining_days(int month, int day, int year)
 {
-if (year % 4 == 0 || (year % 400 == 0 && year % 100 == 0))
+/*remember i changed the priority to accept the leap year*/
+
+if ((year % 4 == 0) || ((year % 400 == 0) && (year % 100 == 0)))
 {
+/*not equal*/
 if (month > 2 && day >= 60)
 {
 day++;
