@@ -10,7 +10,6 @@
 int main(void)
 {
 int TotalSum, limit = 2645;
-char Printed_char;
 
 /*genaerate rand num*/
 srand(time(NULL));
