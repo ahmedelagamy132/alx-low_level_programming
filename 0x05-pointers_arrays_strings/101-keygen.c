@@ -9,8 +9,8 @@
 
 int main(void)
 {
-int TotalSum, limit = 2645, printedSum;
-
+char printedSum;
+int TotalSum, limit = 2645;
 /*genaerate rand num*/
 srand(time(NULL));
 
