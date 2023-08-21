@@ -9,7 +9,7 @@
 
 int main(void)
 {
-int TotalSum, limit = 2645;
+int TotalSum, limit = 2645, printedSum;
 
 /*genaerate rand num*/
 srand(time(NULL));
@@ -17,8 +17,9 @@ srand(time(NULL));
 /*print paassworfd*/
 while (TotalSum <= limit)
 {
-TotalSum += (rand() % 128);
-putchar(rand() % 128);
+printedSum = rand() % 128;
+TotalSum = TotalSum + printedSum;
+putchar(printedSum);
 }
 /*last char*/
 putchar(2772 - TotalSum);
