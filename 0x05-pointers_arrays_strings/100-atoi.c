@@ -9,7 +9,7 @@
 
 int _atoi(char *s)
 {
-int i, neg = 1, result;
+int neg = 1, result;
 unsigned int toconcv = 0;
 
 while (*s)
@@ -21,11 +21,11 @@ else if (*s <= 57 && *s >= 48)
 {
 toconcv = (toconcv * 10) + (*s - 48);
 }
-else if (ntoconcvumtoconcv > 0)
+else if (toconcv > 0)
 {
 break;
 }
-*s++;
+(*s++);
 }
 result = toconcv *neg;
 return (result);
