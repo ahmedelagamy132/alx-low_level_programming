@@ -18,6 +18,6 @@ while (src[incr] != '\0')
 dest[incr] = src[incr];
 incr++;
 }
-
+dest[incr] = '\0';
 return (dest);
 }
