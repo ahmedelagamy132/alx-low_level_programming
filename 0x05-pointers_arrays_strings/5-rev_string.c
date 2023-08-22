@@ -16,7 +16,7 @@ while (s[howtall] != '\0')
 howtall++;
 }
 
-iter = 0
+iter = 0;
 for (; iter < howtall / 2; iter++)
 {
 /* swapping */
