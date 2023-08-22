@@ -16,7 +16,7 @@ elementsnum++;
 elementsnum = elementsnum / 2;
 while (str[elementsnum] != '\0')
 {
-putchar(str[elementsnum]);
+_putchar(str[elementsnum]);
 elementsnum++;
 }
 }
