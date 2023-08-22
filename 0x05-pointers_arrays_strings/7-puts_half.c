@@ -16,9 +16,10 @@ elementsnum++;
 /*inc for the int*/
 
 elementsnum = elementsnum / 2;
-while (str[elementsnum + 1] != '\0')
+elementsnum = elementsnum + 1;
+while (str[elementsnum] != '\0')
 {
-_putchar(str[elementsnum + 1]);
+_putchar(str[elementsnum]);
 elementsnum++;
 }
 _putchar('\n');
