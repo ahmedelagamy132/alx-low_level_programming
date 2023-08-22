@@ -1,17 +1,23 @@
 #include "main.h"
-#include <string.h>
+
 /**
  * *_strcpy - lknblkgbm;lcbv
  *
  * @dest: sdfjnsmd;lvmsovd
  *
- * @src: cskdjvnsfsvxc
- * Return:kdlbmdlkgcm
+ * @srs: cskdjvnsfsvxc
+ * Return: kjhfbskjvn
  */
 
 char *_strcpy(char *dest, char *src)
 {
-strcpy(src, dest);
+int incr = 0;
+/*loop to copy the str)*/
+while (src[incr] != '\0')
+{
+dest[incr] = src[incr];
+i++;
+}
 
 return (dest);
 }
