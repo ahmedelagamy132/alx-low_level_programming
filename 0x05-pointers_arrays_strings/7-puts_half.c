@@ -19,4 +19,5 @@ while (str[elementsnum] != '\0')
 _putchar(str[elementsnum]);
 elementsnum++;
 }
+_putchar('\n');
 }
