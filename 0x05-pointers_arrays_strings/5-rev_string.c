@@ -1,30 +1,28 @@
 #include "main.h"
-#include "string.h"
-
+#include <string.h>
 /**
- * rev_string - okd,lgfd
- * @s: dklskmflkdf
-**/
+ * rev_string - lksjmlvkfmbx
+ *
+ * @s: vxlvmf;lxb,lvfc
+ */
 
 void rev_string(char *s)
 {
-char help;
-int invr, strup = 0, tqll = 0;
+char extra;
+int howtall = 0, iter, last;
 
-while (s[tqll++] != '\0')
+while (s[howtall] != '\0')
 {
-tqll++;
+howtall++;
 }
-/*swapping*/
-invr = tqll - 1;
-while (invr >= tqll / 2)
+
+iter = 0
+for (; iter < howtall / 2; iter++)
 {
-help = s[invr];
-
-s[invr] = s[strup];
-
-s[strup] = help;
-
-strup++;
+/* swapping */
+last = howtall - 1;
+extra = s[iter];
+s[iter] = s[last - iter];
+s[last - iter] = extra;
 }
 }
