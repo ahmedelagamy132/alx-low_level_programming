@@ -16,7 +16,7 @@ int incr = 0;
 while (src[incr] != '\0')
 {
 dest[incr] = src[incr];
-i++;
+incr++;
 }
 
 return (dest);
