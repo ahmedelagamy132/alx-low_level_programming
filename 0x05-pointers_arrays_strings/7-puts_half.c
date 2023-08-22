@@ -15,12 +15,26 @@ elementsnum++;
 }
 /*inc for the int*/
 
+
+if ((elementsnum % 2) == 0)
+{
 elementsnum = elementsnum / 2;
-elementsnum = elementsnum + 1;
 while (str[elementsnum] != '\0')
 {
 _putchar(str[elementsnum]);
 elementsnum++;
 }
+}
+else
+{
+elementsnum++;
+elementsnum = elementsnum / 2;
+while (str[elementsnum] != '\0')
+{
+_putchar(str[elementsnum]);
+elementsnum++;
+}
+}
+
 _putchar('\n');
 }
