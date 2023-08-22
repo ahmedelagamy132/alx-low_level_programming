@@ -5,7 +5,7 @@
  *
  * @dest: sdfjnsmd;lvmsovd
  *
- * @srs: cskdjvnsfsvxc
+ * @src: cskdjvnsfsvxc
  * Return: kjhfbskjvn
  */
 
@@ -18,6 +18,7 @@ while (src[incr] != '\0')
 dest[incr] = src[incr];
 incr++;
 }
+/*end with \0*/
 dest[incr] = '\0';
 return (dest);
 }
