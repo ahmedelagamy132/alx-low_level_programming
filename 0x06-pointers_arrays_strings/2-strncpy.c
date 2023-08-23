@@ -1,28 +1,35 @@
 #include "main.h"
 
+
 /**
- * *_strncpy - dkjsvndfsd
- * @dest: dhgddgdf
- * @src: kshdnbksjdncs
- * @n: dfvf
- * Return: vdjnflvnmdfl
+ * _strncpy - sklfmrskdmv,sf
+ *
+ * @dest: sdkfmsdlf,s
+ *
+ * @src: dsflkmsdkf
+ *
+ * @n: nsdfsdmflds,f
+ *
+ * Return: gdfkjvnxv
  */
+ 
 char *_strncpy(char *dest, char *src, int n)
 {
+int iter = 0;
+/*loop to assign values*/
 
-int longg = 0, longg2 = 0, iter;
-
-while (src[longg2] && longg2 < n)
+while (iter < n && src[iter])
 {
-dest[longg] = src[longg2];
-longg++;
-longg2++;
-}
-for (i = 0; i < n; i++)
-{
-dest[iter] = '\0';
+dest[iter] = src[iter];
 iter = iter + 1;
 }
-return (dest);
 
+/*assign the null value*/
+while (iter < n)
+{
+dest[iter] = '\0';
+iter++;
+}
+
+return (dest);
 }
