@@ -7,7 +7,7 @@
  *
  * Return: bsacbjksd
  */
-char *string_toupper(char *n)
+char string_toupper(char *n)
 {
 int loop = 0;
 
