@@ -27,7 +27,7 @@ loop = size - 1;
 while (loop >= 0)
 {
 hfbd = (size - 1 - loop);
-total2 = total2 + a[loop * size + hfbd];
+total2 = total2 + a[loop *size + hfbd];
 
 loop--;
 }
