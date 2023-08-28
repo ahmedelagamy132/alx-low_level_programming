@@ -9,8 +9,8 @@
  */
 void print_chessboard(char (*a)[8])
 {
-int loop1 = 0 ,loop2 = 0;
 
+int loop1 = 0, loop2 = 0;
 while (loop1 < 8)
 {
 /*getting the location*/
