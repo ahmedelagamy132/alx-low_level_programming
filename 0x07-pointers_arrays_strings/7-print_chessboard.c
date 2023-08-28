@@ -18,10 +18,11 @@ while (loop2 < 8)
 {
 _putchar(a[loop1][loop2]);
 
-_putchar('\n');
+/*_putchar('\n');*/
 
 loop2++;
 }
+_putchar('\n');
 loop2 = 0;
 loop1++;
 }
