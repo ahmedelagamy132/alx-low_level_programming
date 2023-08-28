@@ -23,7 +23,7 @@ if (s[loop2] == '\0')
 {
 return (loop1);
 }
-
+loop2++;
 }
 loop1++;
 loop2 = 0;
