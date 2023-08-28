@@ -26,5 +26,6 @@ return (loop1);
 loop1++;
 loop2 = 0;
 }
+}
 return (loop1);
 }
