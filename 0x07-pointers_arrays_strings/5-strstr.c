@@ -1,33 +1,35 @@
 #include "main.h"
 
 /**
- * _strstr - fvkjhsnxlkvmxkc
+ * _strstr - cdjvnlfxkmvc
  *
- * @haystack: svkdjn sdjmv
+ * @haystack: xlfvjmxkfv
  *
- * @needle: vj,nsdvj,nsv
+ * @needle: xjvnx,ckmv,x
  *
- * Return: lsjf,vnsfj,vn
+ * Return:xc,vnxjcv,nkxc,v
  */
-
 char *_strstr(char *haystack, char *needle)
 {
-int loop1 = 0, loop2 = 0;
-while (haystack[loop1] != '\0')
+ 
+while (*haystack != '\0')
 {
+char *second = needle;
 char *first = haystack;
-char *secomd = needle;
-
-while (first[loop2] == secomd[loop2] && secomd[loop2] != '\0')
+	
+/*increment to the two strings*/
+while (*second != '\0' && *first == *second)
 {
-loop2++;
+
+second++;
+first++;
+
+
 }
 
-if (secomd[loop2] == '\0')
-{
-return (haystack[loop1]);
-}
-loop1++;
+if (*second == '\0')
+return (haystack);
+haystack++;
 }
 
 return (0);
