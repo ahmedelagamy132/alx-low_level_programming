@@ -31,4 +31,3 @@ loop2 = 0;
 }
 return (loop1);
 }
-}
