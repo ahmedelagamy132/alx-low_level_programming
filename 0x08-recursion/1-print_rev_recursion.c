@@ -13,7 +13,7 @@ if ('\0' < *s)
 {
 /*rec to go to last*/
 
-_print_rev_recursion(++s);
+_print_rev_recursion(s + 1);
 _putchar(*s);
 
 
