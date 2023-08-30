@@ -1,21 +1,21 @@
 #include "main.h"
 #include <stdio.h>
-
 /**
- * _puts_recursion - hfvbnkdfjvnkfvnfcbcbjc
- * s : csmbvkhfvbkxjdfv
+ * _puts_recursion - xc,vbxn,jmxk,vcxxc
+ *
+ *@s: bvkjfxnvlkmfdvfx
  */
+
 void _puts_recursion(char *s)
 {
-int looop = 0;
-while (s[looop] != '\0')
+
+if (*s != '\0')
 {
-printf("%c", s[looop]);
-
-
+_putchar(*s);
+_puts_recursion(++s);
 }
-printf("\n");
-
-
-
+else
+{
+_putchar('\0');
+}
 }
