@@ -14,7 +14,7 @@ if ('\0' < *s)
 /*rec to go to last*/
 
 _print_rev_recursion(++s);
-printf("%c", *s);
+_putchar(*s);
 
 
 }
