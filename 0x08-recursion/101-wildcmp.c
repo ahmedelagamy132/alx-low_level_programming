@@ -25,7 +25,7 @@ else if (wildcmp(s1, s2 + 1) || wildcmp(s1 + 1, s2))
 return (1);
 }
 }
-else if(*s2 == '\0')
+else if (*s2 == '\0')
 {
 if (*s1 == '\0')
 {
