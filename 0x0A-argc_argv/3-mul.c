@@ -10,17 +10,16 @@
 
 int main(int argc, char *argv[])
 {
-int num1 = 0, num2 = 0;
-
-if (argc < 2)
+int num2 = 0, num1 = 0;
+if (argc > 2)
 {
-printf("Error\n");
-return (1);
+num1 = atoi(argv[1]), num2 = atoi(argv[2]);
+
+printf("%d\n", num1 *num2);
 }
 else
 {
-num2 = atoi(argv[2]), num1 = atoi(argv[1]);
-printf("%d\n", num1 * num2);
+printf("Error\n");
 }
 return (0);
 }
