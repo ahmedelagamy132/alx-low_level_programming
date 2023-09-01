@@ -1,13 +1,13 @@
-#include <stdio.h>
+
 #include <stdlib.h>
 #include <ctype.h>
-#include <string.h>
+#include <stdio.h>
 
 /**
- * main -add positive numbers
- * @argc: int
- * @argv: char *
- * Return: always 0
+ * main -dsjfhsdjfd
+ * @argc: sdfsdfsdf
+ * @argv: sdfdsfdsf
+ * Return: sdfdsfsdfsdf
  */
 
 int main(int argc, char *argv[])
