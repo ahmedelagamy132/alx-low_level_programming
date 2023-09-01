@@ -15,6 +15,7 @@ int num1 = 0, num2 = 0;
 if (argc < 2)
 {
 printf("Error\n");
+return (1);
 }
 else
 {
