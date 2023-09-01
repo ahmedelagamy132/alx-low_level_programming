@@ -3,11 +3,11 @@
 
 /**
  * main - mdfhbvn,dfnv dfv
- * @argc: vdjfvn,jdfnb dfv 
+ * @argc: vdjfvn,jdfnb dfv
  * @argv: df,jvn ,dfmnvkdfmnv
  * Return: dfvjndfvndjvn
  */
- 
+
 int main(int argc, char *argv[])
 {
 int num1 = 0, num2 = 0;
