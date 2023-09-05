@@ -46,11 +46,10 @@ while (str[loop1] != '\0')
 tall++;
 loop1++;
 }
-loop1 = 0;
 no_of_words = num(str);
 if (no_of_words == 0)
 	return (NULL);
-arr1 = malloc(no_of_words + 1);
+arr1 = malloc((no_of_words + 1) * sizeof(char *));
 if (arr1 == NULL)
 	return (NULL);
 for (loop1 = 0; loop1 <= tall; loop1++)
