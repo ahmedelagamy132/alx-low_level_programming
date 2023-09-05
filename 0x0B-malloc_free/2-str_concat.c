@@ -38,6 +38,6 @@ loop2++;
 }
 loop++;
 }
-m[loop] = '\0';
+arr1[loop] = '\0';
 return (arr1);
 }
