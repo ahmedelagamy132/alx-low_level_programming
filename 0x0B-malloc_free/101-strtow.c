@@ -59,7 +59,7 @@ if (str[loop1] == '\0' || str[loop1] == ' ')
 {
 if (condition != 0)
 {
-extra = malloc(condition + 1);
+extra = (char *) malloc(sizeof(char) * (condition + 1));
 if (extra == NULL)
     return (NULL);
 last = loop1;
