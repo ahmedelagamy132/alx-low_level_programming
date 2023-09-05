@@ -1,3 +1,4 @@
+#include <stdlib.h>
 #include "main.h"
 
 /**
@@ -20,7 +21,7 @@ while (str[amount] != '\0')
 amount++;
 }
 mall = amount *sizeof(*str);
-arr1 = malloc(mall + 1)
+arr1 = malloc(mall + 1);
 
 if (arr1 != 0)
 {
