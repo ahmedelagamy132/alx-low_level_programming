@@ -3,8 +3,8 @@
 /**
  * *_strcat - dkjsvndfsd
  * @dest: dhgddgdf
- * @ src: kshdnbksjdncs
- *
+ * @src: kshdnbksjdncs
+ * Return: vdjnflvnmdfl
  */
 
 char *_strcat(char *dest, char *src)
@@ -22,4 +22,6 @@ dest[longg] = src[longg2];
 longg++;
 longg2++;
 }
+return (dest);
+
 }
