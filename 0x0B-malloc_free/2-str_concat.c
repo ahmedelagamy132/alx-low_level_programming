@@ -8,6 +8,14 @@
  */
 char *str_concat(char *s1, char *s2)
 {
+if (s2 == NULL)
+{
+s2 = "\0";
+}
+if (s1 == NULL)
+{
+s1 = "\0";
+}
 char *arr1;
 int size1 = 0, size2 = 0, loop = 0, loop2 = 0, mal;
 while (s1[size1] != '\0')
@@ -19,16 +27,7 @@ while (s2[size2] != '\0')
 size2++;
 }
 mal = (size1 + size2) *sizeof(char);
-if (s2 == NULL)
-{
-s2 = "\0";
-}
-if (s1 == NULL)
-{
-s1 = "\0";
-}
 arr1 = malloc(mal + 1);
-
 if (arr1 == 0)
 {
 return (0);
