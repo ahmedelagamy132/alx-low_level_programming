@@ -16,6 +16,7 @@ if (height <= 0)
 	return  (NULL);
 if (width <= 0)
 {
+free(arr1);
 return (NULL);
 }
 arr1 = malloc(sizeof(int *) * height);
@@ -29,12 +30,12 @@ else
 while (loop1 < height)
 {
 arr1[loop1] = malloc(sizeof(int) * width);
-if (arr1[loop1] == NULL)
+if (arr1[loop1] == 0)
 {
-while (loop2 < loop1)
+while (loop1)
 {
-free(arr1[loop2]);
-loop2++;
+loop1--;
+free(arr1[loop1]);
 }
 free(arr1);
 return (NULL);
