@@ -50,7 +50,7 @@ if (no_of_words == 1)
 if (no_of_words == 0)
     return (NULL);
 
-arr1 = (char **)malloc((no_of_words + 1) * sizeof(char *));
+arr1 = (char **)malloc((no_of_words) * sizeof(char *));
 if (arr1 == NULL)
     return (NULL);
 for (loop1 = 0; loop1 <= tall; loop1++)
