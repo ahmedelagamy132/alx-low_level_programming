@@ -19,7 +19,7 @@ if (phrase[loop + 1] != '\0' && phrase[loop + 1] != ' ')
 {
 num_words++;
 }
-}
+}		
 else if (loop == 0)
 {
 num_words++;
@@ -38,19 +38,21 @@ return (num_words);
  */
 char **strtow(char *str)
 {
-int loop1 = 0, loop2, tall = 0, no_of_words = 0, condition = 0, first, last;
+int loop1 = 0, loop2  = 0, tall = 0, no_of_words = 0, condition = 0, first, last;
 char *extra, **arr1;
-loop2 = 0;
 if (str == NULL || *str == '\0')
-	return (NULL);
-while (str[loop1++] != '\0')
-	tall++;
+    return (NULL);
+while (*(str + tall))
+		tall++;
 no_of_words = num(str);
+if (no_of_words == 1)
+	return (NULL);    
 if (no_of_words == 0)
-	return (NULL);
+    return (NULL);
+
 arr1 = malloc((no_of_words + 1) * sizeof(char *));
 if (arr1 == NULL)
-	return (NULL);
+    return (NULL);
 for (loop1 = 0; loop1 <= tall; loop1++)
 {
 if (str[loop1] == '\0' || str[loop1] == ' ')
@@ -59,17 +61,17 @@ if (condition != 0)
 {
 extra = malloc(condition + 1);
 if (extra == NULL)
-	return (NULL);
+    return (NULL);
 last = loop1;
 while (first < last)
-	*extra++ = str[first++];
+    *extra++ = str[first++];
 *extra = '\0';
 arr1[loop2++] = extra - condition;
 condition = 0;
 }
 }
 else if (condition++ == 0)
-	first = loop1;
+    first = loop1;
 }
 arr1[loop2] = NULL;
 return (arr1);
