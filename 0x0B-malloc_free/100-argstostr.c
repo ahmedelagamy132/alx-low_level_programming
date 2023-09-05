@@ -14,7 +14,7 @@ char *argstostr(int ac, char **av)
 {
 char *arr1;
 int loop1 = 0, loop2 = 0, loop3 = 0, length = 0, mal;
-arr1 = null;
+arr1 = NULL;
 if (ac == 0)
 	return (NULL);
 if (av == NULL)
