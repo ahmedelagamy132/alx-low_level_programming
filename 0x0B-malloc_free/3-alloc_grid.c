@@ -30,8 +30,8 @@ else
 {
 while (loop1 < height)
 {
-ptr[loop1] = malloc(sizeof(int) * width);
-if (ptr[x] == NULL)
+arr1[loop1] = malloc(sizeof(int) * width);
+if (arr1[loop1] == NULL)
 {
 while (loop2 < loop1)
 {
