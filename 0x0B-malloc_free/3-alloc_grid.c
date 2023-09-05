@@ -35,7 +35,7 @@ if (arr1[loop1] == NULL)
 {
 while (loop2 < loop1)
 {
-free(ptr[loop2]);
+free(arr1[loop2]);
 loop2++;
 }
 free(arr1);
