@@ -16,7 +16,6 @@ if (height <= 0)
 	return  (NULL);
 if (width <= 0)
 {
-free(arr1);
 return (NULL);
 }
 arr1 = malloc(sizeof(int *) * height);
