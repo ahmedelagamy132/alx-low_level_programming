@@ -8,6 +8,8 @@
  */
 char *str_concat(char *s1, char *s2)
 {
+char *arr1;
+int size1 = 0, size2 = 0, loop = 0, loop2 = 0, mal;
 if (s2 == NULL)
 {
 s2 = "\0";
@@ -16,8 +18,6 @@ if (s1 == NULL)
 {
 s1 = "\0";
 }
-char *arr1;
-int size1 = 0, size2 = 0, loop = 0, loop2 = 0, mal;
 while (s1[size1] != '\0')
 {
 size1++;
