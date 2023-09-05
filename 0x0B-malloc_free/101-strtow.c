@@ -41,11 +41,10 @@ char **strtow(char *str)
 int loop1 = 0, loop2, tall = 0, no_of_words = 0, condition = 0, first, last;
 char *extra, **arr1;
 loop2 = 0;
-while (str[loop1] != '\0')
-{
-tall++;
-loop1++;
-}
+if (str == NULL || *str == '\0')
+	return (NULL);
+while (str[loop1++] != '\0')
+	tall++;
 no_of_words = num(str);
 if (no_of_words == 0)
 	return (NULL);
