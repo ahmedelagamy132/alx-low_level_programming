@@ -22,7 +22,7 @@ amount++;
 }
 mall = amount *sizeof(*str) + 1;
 arr1 = malloc(mall);
-
+loop = 0;
 if (arr1 != 0)
 {
 while (loop < amount)
