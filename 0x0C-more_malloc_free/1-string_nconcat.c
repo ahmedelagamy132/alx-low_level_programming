@@ -32,7 +32,7 @@ else
 {
 word = malloc(sizeof(char) * (1 + tall1 + tall2));
 }
-if (!(word != '\0'))
+if (word)
 {
 return (NULL);
 }
@@ -45,7 +45,7 @@ for (; n < tall2 && loop1 < (tall1 + n); loop1++, loop2++)
 {
 word[loop1] = s2[loop2];
 }
-for (; n >= tall2 && loop1 < (tall1 + tall2), loop1++, loop2++)
+for (; n >= tall2 && loop1 < (tall1 + tall2); loop1++, loop2++)
 {
 word[loop1] = s2[loop2];
 }
