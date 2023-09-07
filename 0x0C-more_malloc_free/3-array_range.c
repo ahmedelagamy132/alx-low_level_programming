@@ -20,12 +20,12 @@ return (NULL);
 }
 word = malloc(sizeof(*word) * (1 + (max - min)));
 
-if (block != NULL)
-{
+if (word != NULL)
+{d
 loop1 = min;
 while (loop1 <= max)
 {
-block[loop2] = loop1;
+word[loop2] = loop1;
 loop2++;
 loop1++;
 }
