@@ -1,54 +1,55 @@
-#include "main.h"
 #include <stdlib.h>
+#include "main.h"
+
 /**
- * *string_nconcat - fkjbhng,k,bm,gc
- *
- * @s1: cgkjbncgk.mngcb
- * @s2: cngjnkcg
- * @n: ck.gnmcgk.nmbv
- *
- * Return: kgh.vgmnk.vgnlvh
- */
+*string_nconcat - dljgvhbdkjmvdfv
+*
+*@s1: dlkfbhndkgmbkdg;mb
+*@s2: dgm.b,mgdb,gdbgf,b
+*@n: fljbgkmfgkfbm fkbg,f
+*
+*Return:  fgnb lfkm kfm ,fc
+*/
+
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-unsigned int tall2 = 0, loop2 = 0, loop1 = 0, tall1 = 0;
+unsigned int tall, address;
 char *word;
+tall = n;
+if (s2 == NULL)
+{
+s2 = "";
+}
+if (s1 == NULL)
+{
+s1 = "";
+}
+address = 0;
+while (s1[address])
+{
+tall++;
+address++;
+}
+word = malloc(sizeof(char) * (1 + tall));
 
-while (s2[tall2] && s2)
-{
-tall2 = tall2 + 1;
-}
-
-while (s1[tall1] && s1)
-{
-tall1 = tall1 + 1;
-}
-
-if (tall2 > n)
-{
-word = malloc(sizeof(char) * (n + 1 + tall1));
-}
-else
-{
-word = malloc(sizeof(char) * (1 + tall1 + tall2));
-}
-if (word)
+if (word == NULL)
 {
 return (NULL);
 }
-for (loop1 = 0; loop1 < tall1; loop1++)
+tall = 0;
+address = 0;
+while (s1[address])
 {
-word[loop1] = s1[loop1];
+word[tall] = s1[address];
+tall++;
+address++;
 }
-
-for (; n < tall2 && loop1 < (tall1 + n); loop1++, loop2++)
+address = 0;
+while (s2[address] && address < n)
 {
-word[loop1] = s2[loop2];
+word[tall++] = s2[address];
+address++;
 }
-for (; n >= tall2 && loop1 < (tall1 + tall2); loop1++, loop2++)
-{
-word[loop1] = s2[loop2];
-}
-word[loop1] = '\0';
+word[tall] = '\0';
 return (word);
 }
