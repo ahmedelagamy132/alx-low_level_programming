@@ -33,6 +33,7 @@ while (loop < len1)
 buddy->name[loop] = name[loop];
 loop++;
 }
+buddy->name[loop] = '\0';
 buddy->owner = malloc(sizeof(buddy->owner) * len2);
 if (buddy->owner == NULL)
 {
@@ -45,6 +46,7 @@ while (loop2 < len2)
 buddy->owner[loop2] = owner[loop2];
 loop2++;
 }
+buddy->owner[loop2] = '\0';
 buddy->age = age;
 return (buddy);
 }
