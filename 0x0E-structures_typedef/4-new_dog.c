@@ -1,6 +1,6 @@
 #include "dog.h"
 #include <string.h>
-
+#include <stdlib.h>
 /**
  * new_dog - generate new dog
  * @age: age
@@ -42,7 +42,7 @@ return(NULL);
 }
 while (loop2 < len2)
 {
-buddy->owmer[loop2] = owner[loop2];
+buddy->owner[loop2] = owner[loop2];
 loop2++;
 }
 buddy->age = age;
