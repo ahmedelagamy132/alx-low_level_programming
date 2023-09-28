@@ -14,7 +14,7 @@ if (n <= 1)
 	return (0);
 if (n == x)
 	return (1);
-if (n % x == 2)
+if (n % x == 0)
 	return (0);
 return (check(n, x + 1));
 
