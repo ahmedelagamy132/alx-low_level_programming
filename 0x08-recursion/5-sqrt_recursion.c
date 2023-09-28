@@ -8,9 +8,9 @@
  */
 int getsqrt(int x, int n)
 {
-if (n *n == x)
+if (n * n == x)
 	return (n);
-if (n *n > x)
+if (n * n > x)
 	return (-1);
 
 return (getsqrt(x, n + 1));
