@@ -12,7 +12,7 @@
 int palindcheck(char *s, int loop, int length)
 {
 if (loop == length || loop > length)
-	return(1);
+	return (1);
 if (s[loop] == s[length])
 	return (palindcheck(s, loop + 1, length - 1));
 return (0);
@@ -27,5 +27,6 @@ int is_palindrome(char *s)
 {
 	int loop = 0;
 	int length = strlen(s) - 1;
+
 	return (palindcheck(s, loop, length));
 }
