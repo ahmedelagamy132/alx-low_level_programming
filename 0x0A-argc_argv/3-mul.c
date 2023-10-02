@@ -20,8 +20,8 @@ else
 {
 first = atoi(argv[1]);
 second = atoi(argv[2]);
-total = first * second;
-printf("%d\n",total);
+total = first *second;
+printf("%d\n", total);
 }
 return (0);
 }
