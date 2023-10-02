@@ -28,10 +28,10 @@ printf("Error\n");
 return (1);
 }
 }
-sum += atoi(argv[loop1]);
+total += atoi(argv[loop1]);
 loop1++;
 }
-printf("%d", sum);
+printf("%d", total);
 printf("\n");
 }
 return (0);
