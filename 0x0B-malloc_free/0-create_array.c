@@ -8,7 +8,7 @@
  *
  * Return: pointer
  */
- 
+
 char *create_array(unsigned int size, char c)
 {
 unsigned int loop = 0;
