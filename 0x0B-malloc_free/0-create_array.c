@@ -29,5 +29,5 @@ while (size > loop)
 word[loop] = c;
 loop++;
 }
-return (array);
+return (word);
 }
