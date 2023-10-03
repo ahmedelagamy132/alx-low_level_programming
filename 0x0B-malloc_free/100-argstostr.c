@@ -15,11 +15,11 @@ char *argstostr(int ac, char **av)
 char *word;
 int loop1 = 0, loop2 = 0, num = 0, cap = 0;
 
-if (av == 0)
+if (ac == 0)
 {
 return (NULL);
 }
-if (ac == NULL)
+if (av == NULL)
 {
 return (NULL);
 }
@@ -28,7 +28,7 @@ while (loop1 < ac)
 {
 while (av[loop1][loop2] != '\0')
 {
-loop2++
+loop2++;
 }
 loop2 = 0;
 cap += loop2 + 1; 
