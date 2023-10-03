@@ -12,7 +12,7 @@ int **alloc_grid(int width, int height)
 int **word, loop1 = 0, loop2 = 0, tall;
 tall = width * height;
 
-if (len <= 0)
+if (tall <= 0)
 {
 return (NULL);
 }
@@ -26,7 +26,8 @@ while (loop1 < height)
 word[loop1] = (int *)malloc(width * sizeof(int));
 if (word[loop1] == NULL)
 {
-for (loop1  - 1; loop1 >= 0; loop1--)
+loop1 -= 1;
+for (loop1 ; loop1 >= 0; loop1--)
 {
 free(word[loop1]);
 }
