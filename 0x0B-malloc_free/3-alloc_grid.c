@@ -27,7 +27,7 @@ word[loop1] = (int *)malloc(width * sizeof(int));
 if (word[loop1] == NULL)
 {
 loop1 -= 1;
-for (loop1 ; loop1 >= 0; loop1--)
+for (; loop1 >= 0; loop1--)
 {
 free(word[loop1]);
 }
