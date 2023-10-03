@@ -11,8 +11,8 @@
  
 char *create_array(unsigned int size, char c)
 {
-    int loop = 0;
-	char *word;
+unsigned int loop = 0;
+char *word;
 
 
 if (size == 0)
@@ -27,7 +27,7 @@ return (NULL);
 while (size > loop)
 {
 word[loop] = c;
-i++;
+loop++;
 }
 return (array);
 }
