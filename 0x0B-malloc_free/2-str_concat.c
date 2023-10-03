@@ -14,7 +14,7 @@ int no = 0, ind = 0,  tall;
 char *tstr;
 
 if (s2 == NULL)
-{		
+{
 s2 = "";
 }
 if (s1 == NULL)
