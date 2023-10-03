@@ -28,6 +28,7 @@ return (NULL);
 while (loop < tall)
 {
 b[loop] = str[loop];
+loop++;
 }
 b[tall] = '\0';
 
