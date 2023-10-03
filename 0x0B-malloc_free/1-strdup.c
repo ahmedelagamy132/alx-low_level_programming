@@ -5,7 +5,7 @@
  * @str: string
  * Return: string
  */
- 
+
 char *_strdup(char *str)
 {
 char *b;
@@ -20,7 +20,7 @@ while (str[tall] != '\0')
 {
 tall++;
 }
-b = (char *)malloc((1 * tall) + 1);
+b = (char *)malloc((1 * tall) +1);
 if (b == NULL)
 {
 return (NULL);
