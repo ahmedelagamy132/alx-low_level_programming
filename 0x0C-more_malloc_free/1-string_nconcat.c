@@ -41,7 +41,7 @@ len1 = len(s1);
 len2 = len(s2);
 
 n = (n >= len2) ? len2 : n;
-word = malloc((len1 + n) * 1 + 1);
+word = malloc((len1 + n) *1 + 1);
 if (!word)
 	return (NULL);
 
