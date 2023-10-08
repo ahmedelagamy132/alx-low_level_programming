@@ -20,7 +20,7 @@ word = malloc((sizeof(int) * (max - min)) + sizeof(int));
 if (word == NULL)
 	return (NULL);
 
-while (; min <= max; min++)
+for (; min <= max; min++)
 {
 word[loop] = min;
 loop++;
