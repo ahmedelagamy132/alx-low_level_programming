@@ -1,4 +1,7 @@
+
 #include "dog.h"
+#include <stdlib.h>
+
 /**
  * init_dog - dog
  * @d: pointerr
