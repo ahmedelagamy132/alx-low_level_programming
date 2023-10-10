@@ -16,11 +16,11 @@ int loop1 = 0, loop2 = 0, loop3 = 0;
 
 if (name == NULL || owner == NULL)
 	return (NULL);
-	
+
 ptr = malloc(sizeof(dog_t));
 if (ptr == NULL)
 	return (NULL);
-	
+
 while (name[loop1])
 	loop1++;
 loop1++;
