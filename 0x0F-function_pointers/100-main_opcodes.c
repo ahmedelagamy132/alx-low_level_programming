@@ -30,7 +30,7 @@ exit(2);
 
 while (loop < no)
 {
-printf("%02x", ptr[i] & 0xFF);
+printf("%02x", ptr[loop] & 0xFF);
 if (loop != no - 1)
 	printf(" ");
 loop++;	
