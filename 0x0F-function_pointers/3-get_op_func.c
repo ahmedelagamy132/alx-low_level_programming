@@ -2,7 +2,7 @@
 
 /**
  * get_op_func - operator
- * @s: str	
+ * @s: str
  * Return: return null or the function to do.
  */
 
