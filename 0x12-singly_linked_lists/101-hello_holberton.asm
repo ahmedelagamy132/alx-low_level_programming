@@ -1,16 +1,10 @@
-/*
-101-hello_holberton.asm
-*/
 extern printf
-
 
 section .text
 global main
 
-
 main:
 push rbp
-
 
 mov rdi, fmt
 mov rsi, msg
@@ -19,10 +13,8 @@ call printf
 
 pop rbp
 
-
 mov rax, 0
 ret
-
 
 section .data
 msg: db "Hello, Holberton", 0
