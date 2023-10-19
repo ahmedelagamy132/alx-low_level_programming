@@ -9,27 +9,28 @@
 
 list_t *add_node(list_t **head, const char *str)
 {
-char *fff;
-int len;
-list_t *nnode;
+char *FFF;
+int tall;
+list_t *LL;
 
-nnode = malloc(sizeof(list_t));
-if (fff == NULL)
-	return (NULL);
-
-dup = strdup(str);
-if (fff == NULL)
+LL = malloc(sizeof(list_t));
+if (LL == NULL)
 {
-free(nnode);
+return (NULL);
+}
+FFF = strdup(str);
+if (FFF == NULL)
+{
+free(LL);
 return (NULL);
 }
 for (tall = 0; str[tall];)
-	tall++;
-
-	nnode->str = fff;
-	nnode->tall = tall;
-	nnode->next = *head;
-
-	*head = nnode;
-return (nnode);
+{
+tall++;
+}
+LL->str = FFF;
+LL->len = tall;
+LL->next = *head;
+*head = LL;
+return (LL);
 }
