@@ -18,9 +18,9 @@ return (-1);
 
 }
 
-m = 1 << index;
+loop = 1 << index;
 
-*n = (*n | m);
+*n = (*n | loop);
 
 
 return (1);
